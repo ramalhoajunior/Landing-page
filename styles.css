@@ -9,7 +9,8 @@
 }
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background-image: url("img/buildings-2602324.jpg");
+    background-size: cover;
 }
 
 .header-image,
@@ -17,19 +18,17 @@ body {
 .footer-image{
     width: 100px;
 }
-.main-content-image {
-    border-radius: 50px;
-    width: 200px;    
-}
 .header {
    display: flex;
    flex-direction: row; 
    align-items: center;
-   justify-content: space-around;
+   justify-content: space-between;
    padding: 24px;
+   background-color: #2F2325;
 }
-.header-image {
-    height: 72px;
+.header-title {
+    font-family: "righteous", sans-serif;
+    color: tan;
 }
 .header-menu {
   display: flex;  
@@ -52,13 +51,14 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    margin-top: 30px;
+    justify-content: right;
+    padding-left: 30px;
+    height: 80vh;
 }
 .main-content-written {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: text-around;
     gap: 32px;
 }
 .main-content-written-title {
@@ -85,4 +85,8 @@ body {
     font-weight: 400;
     font-size: 24px;
     color: #2F2325;
+}
+.footer {
+    background-color: sienna;
+    height: 300px
 }
